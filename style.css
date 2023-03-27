@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    background-color: #E2E8F0;
+    font-family: "PT Sans Narrow";
+}
+
+header,
+footer{
+    background-color: #1A202C;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-grid {
+    width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+.content-container {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.upper-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-paragraph {
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+
+}
+
+.upper-text {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.upper-content {
+    background-color: white;
+    height: 300px;
+}
+
+.button-container {
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    flex: 2;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+button {
+    padding: 15px 30px;
+    background-color: #9B2C2C;
+    color: white;
+    border-radius: 6px;
+    border-style: solid;
+    border: none;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.left-content p,
+.right-content p {
+    text-align: justify;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    margin: 20px 5px;
+}
+
+.left-content,
+.right-content {
+    background-color: white;
+    transition-timing-function: ease;
+}
+
+.left-content:hover,
+.right-content:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.15s;
+    width: 102%;
+    height: 102%;
+}
+
+h1 {
+    font-family: "Oswald";
+    letter-spacing: 6px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #2D3748;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.header-container {
+    width: 1170px;
+    margin: 0 auto;
+}

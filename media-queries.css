@@ -1,0 +1,11 @@
+@media screen and (min-width: 1050px) and (max-width: 1350px) {
+    div,
+    .text-container {
+        width: 100%;
+        overflow-x: hidden;
+    } 
+
+    div.flex-container {
+        max-width: 100%;
+    }
+}
