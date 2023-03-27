@@ -46,6 +46,7 @@ img {
     width: 1170px;
     margin: 0 auto;
     margin-bottom: 20px;
+    column-gap: 50px;
 }
 
 .upper-content {
@@ -68,6 +69,7 @@ img {
 .upper-content {
     background-color: white;
     height: 300px;
+    text-align: center;
 }
 
 .button-container {
@@ -107,26 +109,22 @@ p {
     margin: 0;
 }
 
-.left-content p,
-.right-content p {
+.left-content p {
     text-align: justify;
     letter-spacing: 0.3px;
     line-height: 30px;
     margin: 20px 5px;
 }
 
-.left-content,
-.right-content {
+.left-content {
     background-color: white;
     transition-timing-function: ease;
 }
 
-.left-content:hover,
-.right-content:hover {
+.left-content:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.15s;
-    width: 102%;
-    height: 102%;
+    transform: scale(1.09);
 }
 
 h1 {

@@ -1,11 +1,42 @@
-@media screen and (min-width: 1050px) and (max-width: 1350px) {
+@media (max-width: 450px) {
+    .header-container{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    } 
+
+    .upper-text{
+        width: 100%;
+    }
+
+    .content-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .content-container img{
+        height: 200px;
+    }
+    .content-container div{
+        pointer-events: none;
+    }
     div,
     .text-container {
         width: 100%;
-        overflow-x: hidden;
     } 
 
     div.flex-container {
         max-width: 100%;
+    }
+
+    .footer-grid{
+        width: 100%;
+    }
+
+    h1 {
+        padding-left: 10px;
     }
 }
